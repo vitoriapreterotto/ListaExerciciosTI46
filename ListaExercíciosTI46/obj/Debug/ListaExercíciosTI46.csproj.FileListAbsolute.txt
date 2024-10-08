@@ -1,0 +1,7 @@
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\bin\Debug\ListaExercíciosTI46.exe.config
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\bin\Debug\ListaExercíciosTI46.exe
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\bin\Debug\ListaExercíciosTI46.pdb
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\obj\Debug\ListaExercíciosTI46.csproj.AssemblyReference.cache
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\obj\Debug\ListaExercíciosTI46.csproj.CoreCompileInputs.cache
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\obj\Debug\ListaExercíciosTI46.exe
+C:\Users\vitoria.rspreterotto\source\repos\ListaExercíciosTI46\ListaExercíciosTI46\obj\Debug\ListaExercíciosTI46.pdb
