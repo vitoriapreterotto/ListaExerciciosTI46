@@ -8,8 +8,6 @@ namespace ListaExercíciosTI46
 {
     internal class Lista01
     {
-        internal object exercicio02;
-
         public void exercicio01()
         {
             string texto;
@@ -98,6 +96,7 @@ namespace ListaExercíciosTI46
 
             Console.ReadKey();
         }
+
         public void exercicio07()
         {
             double n1, dobro, terca;

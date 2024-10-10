@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,8 +50,16 @@ namespace ListaExercíciosTI46
                 Console.WriteLine("25 - Exercício 04 da Lista 03");
                 Console.WriteLine("26 - Exercício 05 da Lista 03");
                 Console.WriteLine("27 - Exercício 06 da Lista 03");
-                Console.WriteLine("28 - Exercício 01 da Lista 03");
-                Console.WriteLine("29 - Exercício 02 da Lista 03");
+                Console.WriteLine("28 - Exercício 01 da Lista 04");
+                Console.WriteLine("29 - Exercício 02 da Lista 04");
+                Console.WriteLine("30 - Exercício 03 da Lista 04");
+                Console.WriteLine("31 - Exercício 04 da Lista 04");
+                Console.WriteLine("32 - Exercício 05 da Lista 04");
+                Console.WriteLine("33 - Exercício 06 da Lista 04");
+                Console.WriteLine("34 - Exercício 07 da Lista 04");
+                Console.WriteLine("35 - Exercício 08 da Lista 04");
+                Console.WriteLine("36 - Exercício 09 da Lista 04");
+                Console.WriteLine("37 - Exercício 10 da Lista 04");
 
 
                 int escolha = Convert.ToInt32(Console.ReadLine());
@@ -171,6 +181,38 @@ namespace ListaExercíciosTI46
 
                     case 29:
                         lista04.at02();
+                        break;
+
+                    case 30:
+                        lista04.at03();
+                        break;
+
+                    case 31:
+                        lista04.at04();
+                        break;
+
+                    case 32:
+                        lista04.at05();
+                        break;
+
+                    case 33:
+                        lista04.at06();
+                        break;
+
+                    case 34:
+                        lista04.at07();
+                        break;
+
+                    case 35:
+                        lista04.at08();
+                        break;
+
+                    case 36:
+                        lista04.at09();
+                        break;
+
+                    case 37:
+                        lista04.at10();
                         break;
 
                     default:
