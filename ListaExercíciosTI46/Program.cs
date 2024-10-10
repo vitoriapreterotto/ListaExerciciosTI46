@@ -15,6 +15,8 @@ namespace ListaExercíciosTI46
 
             Lista01 lista01 = new Lista01();
             Lista02 lista02 = new Lista02();
+            Lista03 lista03 = new Lista03();
+            Lista04 lista04 = new Lista04();
 
             do
             {
@@ -35,6 +37,19 @@ namespace ListaExercíciosTI46
                 Console.WriteLine("14 - Exercício 04 da Lista 02");
                 Console.WriteLine("15 - Exercício 05 da Lista 02");
                 Console.WriteLine("16 - Exercício 06 da Lista 02");
+                Console.WriteLine("17 - Exercício 07 da Lista 02");
+                Console.WriteLine("18 - Exercício 08 da Lista 02");
+                Console.WriteLine("19 - Exercício 09 da Lista 02");
+                Console.WriteLine("20 - Exercício 10 da Lista 02");
+                Console.WriteLine("21 - Exercício 11 da Lista 02");
+                Console.WriteLine("22 - Exercício 01 da Lista 03");
+                Console.WriteLine("23 - Exercício 02 da Lista 03");
+                Console.WriteLine("24 - Exercício 03 da Lista 03");
+                Console.WriteLine("25 - Exercício 04 da Lista 03");
+                Console.WriteLine("26 - Exercício 05 da Lista 03");
+                Console.WriteLine("27 - Exercício 06 da Lista 03");
+                Console.WriteLine("28 - Exercício 01 da Lista 03");
+                Console.WriteLine("29 - Exercício 02 da Lista 03");
 
 
                 int escolha = Convert.ToInt32(Console.ReadLine());
@@ -99,11 +114,63 @@ namespace ListaExercíciosTI46
                     break;
 
                     case 15:
-                        ex05();
+                        lista02.ex05();
                         break;
 
                     case 16:
-                        ex06();
+                        lista02.ex06();
+                        break;
+
+                    case 17:
+                        lista02.ex07();
+                        break;
+
+                    case 18:
+                        lista02.ex08();
+                        break;
+
+                    case 19:
+                        lista02.ex09();
+                        break;
+
+                    case 20:
+                        lista02.ex10();
+                        break;
+
+                    case 21:
+                        lista02.ex11();
+                        break;
+
+                    case 22:
+                        lista03.atividade01();
+                        break;
+
+                    case 23:
+                        lista03.atividade02();
+                        break;
+
+                    case 24:
+                        lista03.atividade03();
+                        break;
+
+                    case 25:
+                        lista03.atividade04();
+                        break;
+
+                    case 26:
+                        lista03.atividade05();
+                        break;
+
+                    case 27:
+                        lista03.atividade06();
+                        break;
+
+                    case 28:
+                        lista04.at01();
+                        break;
+
+                    case 29:
+                        lista04.at02();
                         break;
 
                     default:
@@ -116,34 +183,6 @@ namespace ListaExercíciosTI46
 
             } while (opcao == "S"); 
 
-        }
-
-        private static void ex06()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static void ex05()
-        {
-            string nome, sexo, civil;
-            decimal anos;
-
-            Console.WriteLine("Escreva seu nome: ");
-            nome = Console.ReadLine();
-
-            Console.WriteLine("Qual seu sexo, feminino ou masculino? ");
-            sexo = Console.ReadLine().ToUpper();
-
-            Console.WriteLine("Estado civil? ");
-            civil = Console.ReadLine().ToUpper();
-
-            if (civil == "Casada")
-            {
-                Console.WriteLine("Qual o seu tempo de casado(a) em anos? ");
-                anos = decimal.Parse(Console.ReadLine());
-            }
-
-            Console.ReadKey();
         }
     }
 }
